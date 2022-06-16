@@ -26,7 +26,7 @@ export default {
   data(){
     return {
       pageTitle: {
-        title: "Проектос",
+        title: "Проект",
         subtitle: {
           subtitle_1: "UX/UI",
           subtitle_2: "Concept",

@@ -54,8 +54,8 @@ export default {
                 display: none;
             }
             .custom_h1 {
-                font-size: 88px;
-                line-height: 102px;
+                font-size: 68px;
+                line-height: 88px;
             }
         }
     }

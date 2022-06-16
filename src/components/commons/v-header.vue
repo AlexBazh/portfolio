@@ -56,7 +56,6 @@ export default {
             .header_nav {
                 gap: 32px;
             }
-            bottom: 0;
         }
         .active {
             text-decoration: line-through;
