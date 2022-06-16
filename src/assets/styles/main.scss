@@ -6,57 +6,97 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'SFProDisplay';
-  transition: .3s all;
+  transition: .6s all;
 }
 
 .heading_1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 120px;
+  line-height: 144px;
+  @media screen and (max-width: 1200px){
+    font-size: 80px;
+    line-height: 102px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 52px;
+    line-height: 78px;
+  }
 }
 
 .heading_2 {
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 100px;
+  line-height: 122px;
+  @media screen and (max-width: 1200px){
+    font-size: 60px;
+    line-height: 68px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
-.body_1 {
+.heading_3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 78px;
+  @media screen and (max-width: 1200px){
+    font-size: 44px;
+    line-height: 62px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 32px;
+    line-height: 52px;
+  }
+}
+
+.heading_4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 66px;
+  @media screen and (max-width: 1200px){
+    font-size: 32px;
+    line-height: 44px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 26px;
+    line-height: 42px;
+  }
+}
+
+.heading_5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  @media screen and (max-width: 1200px){
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.nav {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 24px;
-}
-
-.body_2 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-}
-
-.button {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 18px;
-}
-
-.label {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-.caption {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  line-height: 28px;
+  @media screen and (max-width: 1200px){
+    font-size: 16px;
+    line-height: 26px;
+  }
+  @media screen and (max-width: 640px){
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 input::-webkit-outer-spin-button,
@@ -68,4 +108,8 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none;
 }
