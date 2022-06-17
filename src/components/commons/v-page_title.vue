@@ -37,6 +37,10 @@ export default {
             .page_title__h1 {
                 margin-bottom: 16px;
             }
+            .subtitles_block {
+                flex-direction: column;
+                gap: 8px;
+            }
         }
     }
 </style>
