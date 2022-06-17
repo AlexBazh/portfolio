@@ -9,10 +9,16 @@
   transition: .6s all;
 }
 
-html, body {
-  margin: 0;
+html {
+  overflow: hidden;
+  width: 100%;
+}
+
+body {
   height: 100%;
-  overflow: hidden
+  position: fixed;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .heading_1 {
