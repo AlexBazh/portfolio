@@ -9,19 +9,19 @@
                 src="@/assets/img/girfido.png">
         </div>
         <div class="proj_group">
-            <div class="proj_h">
-                <img srcset="@/assets/img/serial_killer_600.png 600w,
-                        @/assets/img/serial_killer.png 960w"
-                sizes="(max-width: 640px) 960px,
-                        (max-width: 1200px) 600px"
-                src="@/assets/img/serial_killer.png">
-            </div>
             <div class="proj_h sec">
                 <img srcset="@/assets/img/dostavim_600.png 600w,
                         @/assets/img/dostavim.png 960w"
                 sizes="(max-width: 640px) 960px,
                         (max-width: 1200px) 600px"
                 src="@/assets/img/dostavim.png">
+            </div>
+            <div class="proj_h">
+                <img srcset="@/assets/img/serial_killer_600.png 600w,
+                        @/assets/img/serial_killer.png 960w"
+                sizes="(max-width: 640px) 960px,
+                        (max-width: 1200px) 600px"
+                src="@/assets/img/serial_killer.png">
             </div>
         </div>
     </div>

@@ -1,12 +1,12 @@
 <template>
   <Header/>
-    <HeroHeader/>
-    <Features/>
-    <Favorite />
-    <Projects />
-    <CTA/>
-    <Form />
-    <Footer/>
+  <HeroHeader/>
+  <Features/>
+  <Favorite />
+  <Projects />
+  <CTA/>
+  <Form />
+  <Footer/>
 </template>
 
 <script>
