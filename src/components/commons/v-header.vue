@@ -52,7 +52,7 @@ export default {
             padding: 24px;
         }
         @media screen and (max-width: 640px){
-            padding: 18px;
+            padding: 20px;
             .header_nav {
                 gap: 32px;
             }

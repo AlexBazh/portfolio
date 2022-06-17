@@ -80,7 +80,7 @@ export default {
             }
         }
         @media screen and (max-width: 640px){
-            padding: 40 18px;
+            padding: 40 20px;
             .spec_list {
                 .spec_item {
                     .nav {

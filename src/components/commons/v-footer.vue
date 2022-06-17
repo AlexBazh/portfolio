@@ -29,7 +29,7 @@ export default {
             padding: 40px 32px;
         }
         @media screen and (max-width: 640px){
-            padding: 18px;
+            padding: 20px;
         }
     }
 </style>
