@@ -5,7 +5,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Userstory</div>
-                <a href="" class="job_site__link nav">cайт</a>
+                <a href="https://userstory.ru/" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Арт-директор</div>
         </div>
@@ -25,7 +25,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Userstory</div>
-                <a href="" class="job_site__link nav">cайт</a>
+                <a href="https://userstory.ru/" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Ведущий дизайнер</div>
         </div>
@@ -46,7 +46,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Diso</div>
-                <a href="" class="job_site__link nav">cайт</a>
+                <a href="https://diso.ru/" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">UX/UI-дизайнер</div>
         </div>
@@ -66,7 +66,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Alt IT</div>
-                <a href="" class="job_site__link nav">cайт</a>
+                <a href="https://alt-it.solutions/" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Веб-дизайнер</div>
         </div>
@@ -87,7 +87,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Telebreeze</div>
-                <a href="" class="job_site__link nav">cайт</a>
+                <a href="https://telebreeze.com/" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Sales</div>
         </div>
@@ -126,6 +126,15 @@ export default {
                 }
             }
             border-bottom: 1px solid $black_100;
+            .job_site__link {
+                color: $primary_80;
+                &:hover {
+                    text-decoration: line-through;
+                }
+                &:visited {
+                    color: $primary_80;
+                }
+            }
         }
         @media screen and (max-width: 1600px){
             padding: 0 40px 80px;
