@@ -3,7 +3,9 @@
   <HeroHeader/>
   <Features/>
   <Favorite />
-  <Projects />
+  <Projects
+    :isAdditional="true"
+  />
   <CTA/>
   <Form />
   <Footer/>
