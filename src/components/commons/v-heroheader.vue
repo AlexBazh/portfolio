@@ -49,7 +49,7 @@ export default {
             }
         }
         @media screen and (max-width: 640px){
-            padding: 0 24px;
+            padding: 0 18px;
             .right_avatar {
                 display: none;
             }

@@ -33,7 +33,7 @@ export default {
             }
         }
         @media screen and (max-width: 640px){
-            padding: 40px 24px;
+            padding: 40px 18px;
             .page_title__h1 {
                 margin-bottom: 16px;
             }

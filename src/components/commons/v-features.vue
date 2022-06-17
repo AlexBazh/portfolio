@@ -73,7 +73,7 @@ export default {
             }
         }
         @media screen and (max-width: 640px){
-            padding: 12px 24px;
+            padding: 12px 18px;
             .feature_content {
                 flex-wrap: wrap;
                 gap: 24px;
