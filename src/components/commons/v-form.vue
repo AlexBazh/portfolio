@@ -80,13 +80,18 @@ export default {
             }
         }
         @media screen and (max-width: 640px){
-            padding: 40 20px;
+            padding: 40px 20px;
+            .form_title {
+                margin-bottom: 24px;
+            }
             .spec_list {
                 .spec_item {
+                    padding: 32px 0px;
                     .nav {
                         color: $primary_80;
                     }
                     &:hover {
+                        padding: 32px 20px;
                         .nav {
                             color: $white_100;
                         }
