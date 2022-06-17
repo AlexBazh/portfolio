@@ -9,6 +9,12 @@
   transition: .6s all;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+
 .heading_1 {
   font-style: normal;
   font-weight: 600;
