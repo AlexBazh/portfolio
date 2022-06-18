@@ -2,43 +2,50 @@
   <div class="projects_main">
     <div class="proj_row">
         <div class="proj_v">
-            <img srcset="@/assets/img/girfido_600.png 600w,
-                        @/assets/img/girfido.png 960w"
-                sizes="(max-width: 640px) 960px,
-                        (max-width: 1200px) 600px"
-                src="@/assets/img/girfido.png">
-            <div class="project_title">
-                <div class="nav">web - mobile - ux/ui - development</div>
-                <div class="heading_5">Girfido</div>
-            </div>
+            <a href="/projects/girfido">
+                <img srcset="@/assets/img/girfido_600.png 600w,
+                            @/assets/img/girfido.png 960w"
+                    sizes="(max-width: 640px) 960px,
+                            (max-width: 1200px) 600px"
+                    src="@/assets/img/girfido.png">
+                <div class="project_title">
+                    <div class="nav">web - mobile - ux/ui - development</div>
+                    <div class="heading_5">Girfido</div>
+                </div>
+            </a>
         </div>
         <div class="proj_group">
             <div class="proj_h sec">
-                <img srcset="@/assets/img/dostavim_600.png 600w,
-                        @/assets/img/dostavim.png 960w"
-                sizes="(max-width: 640px) 960px,
-                        (max-width: 1200px) 600px"
-                src="@/assets/img/dostavim.png">
-                <div class="project_title">
-                    <div class="nav">web - mobile - ux/ui - development</div>
-                    <div class="heading_5">Доставим</div>
-                </div>
+                <a href="/projects/dostavim">
+                    <img srcset="@/assets/img/dostavim_600.png 600w,
+                            @/assets/img/dostavim.png 960w"
+                    sizes="(max-width: 640px) 960px,
+                            (max-width: 1200px) 600px"
+                    src="@/assets/img/dostavim.png">
+                    <div class="project_title">
+                        <div class="nav">web - mobile - ux/ui - development</div>
+                        <div class="heading_5">Доставим</div>
+                    </div>
+                </a>
             </div>
             <div class="proj_h">
-                <img srcset="@/assets/img/serial_killer_600.png 600w,
-                        @/assets/img/serial_killer.png 960w"
-                sizes="(max-width: 640px) 960px,
-                        (max-width: 1200px) 600px"
-                src="@/assets/img/serial_killer.png">
-                <div class="project_title">
-                    <div class="nav">web - ux/ui - development</div>
-                    <div class="heading_5">Serial Killer</div>
-                </div>
+                <a href="/projects/series">
+                    <img srcset="@/assets/img/serial_killer_600.png 600w,
+                            @/assets/img/serial_killer.png 960w"
+                    sizes="(max-width: 640px) 960px,
+                            (max-width: 1200px) 600px"
+                    src="@/assets/img/serial_killer.png">
+                    <div class="project_title">
+                        <div class="nav">web - ux/ui - development</div>
+                        <div class="heading_5">Serial Killer</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
     <div class="proj_row">
         <div class="proj_v sec">
+            <a href="/projects/diso">
                 <img srcset="@/assets/img/diso_600.png 600w,
                         @/assets/img/diso.png 960w"
                 sizes="(max-width: 640px) 960px,
@@ -48,9 +55,11 @@
                     <div class="nav">web - mobile - research - ux/ui</div>
                     <div class="heading_5">Дисо</div>
                 </div>
-            </div>
+            </a>
+        </div>
         <div class="proj_v">
-            <img srcset="@/assets/img/molokomat_600.png 600w,
+            <a href="/projects/moloko">
+                <img srcset="@/assets/img/molokomat_600.png 600w,
                         @/assets/img/molokomat.png 960w"
                 sizes="(max-width: 640px) 960px,
                         (max-width: 1200px) 600px"
@@ -59,48 +68,56 @@
                     <div class="nav">web - ux/ui</div>
                     <div class="heading_5">Молокоматы</div>
                 </div>
+            </a>
         </div>
     </div>
     <div :class="{additional_projects: isAdditional}">
         <div class="proj_row">
             <div class="proj_v">
-                <img srcset="@/assets/img/transport_600.png 600w,
-                            @/assets/img/transport.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/transport.png">
-                <div class="project_title">
-                    <div class="nav">web - research - mobile - ux/ui - managment</div>
-                    <div class="heading_5">Transport</div>
-                </div>
+                <a href="/projects/transport">
+                    <img srcset="@/assets/img/transport_600.png 600w,
+                                @/assets/img/transport.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/transport.png">
+                    <div class="project_title">
+                        <div class="nav">web - research - mobile - ux/ui - managment</div>
+                        <div class="heading_5">Transport</div>
+                    </div>
+                </a>
             </div>
             <div class="proj_group">
                 <div class="proj_h sec">
-                    <img srcset="@/assets/img/stroytek_600.png 600w,
-                            @/assets/img/stroytek.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/stroytek.png">
-                    <div class="project_title">
-                        <div class="nav">mobile - ux/ui</div>
-                        <div class="heading_5">Stroytek</div>
-                    </div>
+                    <a href="/projects/stroytek">
+                        <img srcset="@/assets/img/stroytek_600.png 600w,
+                                @/assets/img/stroytek.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/stroytek.png">
+                        <div class="project_title">
+                            <div class="nav">mobile - ux/ui</div>
+                            <div class="heading_5">Stroytek</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="proj_h">
-                    <img srcset="@/assets/img/chronosat_600.png 600w,
-                            @/assets/img/chronosat.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/chronosat.png">
-                    <div class="project_title">
-                        <div class="nav">web - ux/ui</div>
-                        <div class="heading_5">Chronosat</div>
-                    </div>
+                    <a href="/projects/chronosat">
+                        <img srcset="@/assets/img/chronosat_600.png 600w,
+                                @/assets/img/chronosat.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/chronosat.png">
+                        <div class="project_title">
+                            <div class="nav">web - ux/ui</div>
+                            <div class="heading_5">Chronosat</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="proj_row">
             <div class="proj_v sec">
+                <a href="/projects/payrow">
                     <img srcset="@/assets/img/payrow_600.png 600w,
                             @/assets/img/payrow.png 960w"
                     sizes="(max-width: 640px) 960px,
@@ -110,9 +127,11 @@
                         <div class="nav">web - ux/ui</div>
                         <div class="heading_5">Payrow + Stacle</div>
                     </div>
-                </div>
+                </a>
+            </div>
             <div class="proj_v">
-                <img srcset="@/assets/img/video_system_600.png 600w,
+                <a href="/projects/video">
+                    <img srcset="@/assets/img/video_system_600.png 600w,
                             @/assets/img/video_system.png 960w"
                     sizes="(max-width: 640px) 960px,
                             (max-width: 1200px) 600px"
@@ -121,42 +140,49 @@
                         <div class="nav">web - mobile - ux/ui</div>
                         <div class="heading_5">Video System</div>
                     </div>
+                </a>
             </div>
         </div>
         <div class="proj_row">
             <div class="proj_v">
-                <img srcset="@/assets/img/designit_600.png 600w,
-                            @/assets/img/designit.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/designit.png">
-                <div class="project_title">
-                    <div class="nav">mobile - ux/ui</div>
-                    <div class="heading_5">design it</div>
-                </div>
+                <a href="/projects/designit">
+                    <img srcset="@/assets/img/designit_600.png 600w,
+                                @/assets/img/designit.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/designit.png">
+                    <div class="project_title">
+                        <div class="nav">mobile - ux/ui</div>
+                        <div class="heading_5">design it</div>
+                    </div>
+                </a>
             </div>
             <div class="proj_group">
                 <div class="proj_h sec">
-                    <img srcset="@/assets/img/rosatom_600.png 600w,
-                            @/assets/img/rosatom.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/rosatom.png">
-                    <div class="project_title">
-                        <div class="nav">web - ux/ui</div>
-                        <div class="heading_5">Rosatom</div>
-                    </div>
+                    <a href="/projects/rosatom">
+                        <img srcset="@/assets/img/rosatom_600.png 600w,
+                                @/assets/img/rosatom.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/rosatom.png">
+                        <div class="project_title">
+                            <div class="nav">web - ux/ui</div>
+                            <div class="heading_5">Rosatom</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="proj_h">
-                    <img srcset="@/assets/img/tender_600.png 600w,
-                            @/assets/img/tender.png 960w"
-                    sizes="(max-width: 640px) 960px,
-                            (max-width: 1200px) 600px"
-                    src="@/assets/img/tender.png">
-                    <div class="project_title">
-                        <div class="nav">web - research - ux/ui - managment</div>
-                        <div class="heading_5">Tender</div>
-                    </div>
+                    <a href="/projects/tender">
+                        <img srcset="@/assets/img/tender_600.png 600w,
+                                @/assets/img/tender.png 960w"
+                        sizes="(max-width: 640px) 960px,
+                                (max-width: 1200px) 600px"
+                        src="@/assets/img/tender.png">
+                        <div class="project_title">
+                            <div class="nav">web - research - ux/ui - managment</div>
+                            <div class="heading_5">Tender</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

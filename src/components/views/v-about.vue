@@ -6,6 +6,7 @@
     <PageTitle
       :title="pageTitle.title"
       :subtitle_1="pageTitle.subtitle.subtitle_1"
+      :isBack="false"
     />
     <Jobs />
     <CTA/>

@@ -57,6 +57,9 @@ export default {
                 scale: 1.1;
             }
         }
+        @media screen and (max-width: 1600px){
+            padding: 120px 60px;
+        }
         @media screen and (max-width: 1200px){
             padding: 0 36px;
             .feature_content {

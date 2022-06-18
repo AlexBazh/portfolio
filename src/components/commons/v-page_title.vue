@@ -1,5 +1,6 @@
 <template>
   <div class="page_title">
+    <a href="/projects" class="back_link nav" :class="{show_back: isBack}">Все проекты</a>
     <div class="page_title__h1 heading_1">{{title}}</div>
     <div class="subtitles_block">
         <div class="heading_3">{{subtitle_1}}</div>
@@ -11,13 +12,26 @@
 
 <script>
 export default {
-    props: ["title", "subtitle_1", "subtitle_2", "subtitle_3"]
+    props: ["title", "subtitle_1", "subtitle_2", "subtitle_3", "isBack"]
 }
 </script>
 
 <style lang="scss">
 @import '@/assets/styles/_variables.scss';
     .page_title {
+        .back_link {
+            color: $primary_80;
+            display: none;
+            &:hover {
+                text-decoration: line-through;
+            }
+            &:visited {
+                color: $primary_80;
+            }
+        }
+        .show_back {
+            display: block;
+        }
         .subtitles_block{
             display: flex;
             gap: 80px;
@@ -25,6 +39,9 @@ export default {
         padding: 173px 240px 140px;
         .page_title__h1 {
             margin-bottom: 60px;
+        }
+        @media screen and (max-width: 1600px){
+            padding: 160px 40px 80px;
         }
         @media screen and (max-width: 1200px){
             padding: 120px 40px 80px;

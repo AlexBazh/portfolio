@@ -8,6 +8,7 @@
       :subtitle_1="pageTitle.subtitle.subtitle_1"
       :subtitle_2="pageTitle.subtitle.subtitle_2"
       :subtitle_3="pageTitle.subtitle.subtitle_3"
+      :isBack="false"
     />
     <Projects/>
     <CTA/>

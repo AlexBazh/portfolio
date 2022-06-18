@@ -22,6 +22,9 @@ export default {
         width: 100%;
         background: $black_100;
         color: $white_100;
+        @media screen and (max-width: 1600px){
+            padding: 120px 60px;
+        }
         @media screen and (max-width: 1200px){
             padding: 80px 40px;
         }

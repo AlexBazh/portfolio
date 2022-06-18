@@ -41,11 +41,18 @@ export default {
         .dev {
             margin-top: -28px;
         }
-        @media screen and (max-width: 1200px){
-            padding: 0 36px;
+        @media screen and (max-width: 1600px){
+            padding: 0 60px;
             gap: 80px;
             .right_avatar {
                 width: 400px;
+            }
+        }
+        @media screen and (max-width: 1200px){
+            padding: 0 36px;
+            gap: 40px;
+            .right_avatar {
+                width: 340px;
             }
         }
         @media screen and (max-width: 640px){

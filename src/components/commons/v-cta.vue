@@ -53,6 +53,9 @@ export default {
               }
             }
         }
+        @media screen and (max-width: 1600px){
+            padding: 120px 60px;
+        }
         @media screen and (max-width: 1200px){
             padding: 80px 40px;
             .blue_block {
