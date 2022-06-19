@@ -8,6 +8,12 @@
         :subtitle_1="project_info.subtitle"
         :isBack="true"
     />
+    <div class="block_1">
+        <img srcset="@/assets/img/0_girfido/girfido_1_600.png 600w,
+                                @/assets/img/0_girfido/girfido_1.png 960w"
+                        sizes="(max-width: 1200px) 600px"
+                        src="@/assets/img/0_girfido/girfido_1.png">
+    </div>
   </div>
 </template>
 
@@ -31,6 +37,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import '@/assets/styles/_variables.scss';
+    .block_1 {
+        img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    }
 
 </style>
