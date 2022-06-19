@@ -10,8 +10,7 @@
     />
     <div class="block_1">
         <img srcset="@/assets/img/0_girfido/girfido_1_600.png 600w,
-                                @/assets/img/0_girfido/girfido_1.png 960w"
-                        sizes="(max-width: 1200px) 600px"
+                            @/assets/img/0_girfido/girfido_1.png 1920w"
                         src="@/assets/img/0_girfido/girfido_1.png">
     </div>
   </div>
@@ -39,12 +38,16 @@ export default {
 
 <style lang="scss">
 @import '@/assets/styles/_variables.scss';
+.girfido_proj {
     .block_1 {
+        width: 100%;
+        height: 100%;
         img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
     }
+}
 
 </style>
