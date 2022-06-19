@@ -5,7 +5,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Userstory</div>
-                <a href="https://userstory.ru/" class="job_site__link nav">cайт</a>
+                <a href="https://userstory.ru/" target="_blank" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Арт-директор</div>
         </div>
@@ -25,7 +25,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Userstory</div>
-                <a href="https://userstory.ru/" class="job_site__link nav">cайт</a>
+                <a href="https://userstory.ru/" target="_blank" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Ведущий дизайнер</div>
         </div>
@@ -46,7 +46,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Diso</div>
-                <a href="https://diso.ru/" class="job_site__link nav">cайт</a>
+                <a href="https://diso.ru/" target="_blank" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">UX/UI-дизайнер</div>
         </div>
@@ -58,7 +58,6 @@
             <li>Создание прототипов с дальнейшем тестированием на пользователях;</li>
             <li>Внедрение нового функционала в текущий и новый продукты;</li>
             <li>Дизайн продукта.</li>
-            <li>Работа в команде 20+ дизайнеров.</li>
         </ul>
     </div>
     <div class="job_item">
@@ -66,7 +65,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Alt IT</div>
-                <a href="https://alt-it.solutions/" class="job_site__link nav">cайт</a>
+                <a href="https://alt-it.solutions/" target="_blank" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Веб-дизайнер</div>
         </div>
@@ -87,7 +86,7 @@
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Telebreeze</div>
-                <a href="https://telebreeze.com/" class="job_site__link nav">cайт</a>
+                <a href="https://telebreeze.com/" target="_blank" class="job_site__link nav">cайт</a>
             </div>
             <div class="job_title nav">Sales</div>
         </div>
