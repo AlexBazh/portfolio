@@ -9,9 +9,10 @@
         :isBack="true"
     />
     <div class="block_1">
-        <img srcset="@/assets/img/0_girfido/girfido_1_600.png 600w,
-                            @/assets/img/0_girfido/girfido_1.png 1920w"
-                        src="@/assets/img/0_girfido/girfido_1.png">
+        <picture>
+            <source srcset="@/assets/img/0_girfido/girfido_1_600.png" type="image/png" media="(max-width: 640px)" >
+            <img src="@/assets/img/0_girfido/girfido_1.png" alt="">
+        </picture>
     </div>
   </div>
 </template>
@@ -47,6 +48,9 @@ export default {
                 height: 100%;
                 object-fit: cover;
             }
+    }
+    @media screen and (max-width: 640px){
+
     }
 }
 
