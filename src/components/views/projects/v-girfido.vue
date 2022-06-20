@@ -42,6 +42,31 @@
             <div class="anim_right"></div>
         </a>
     </div>
+    <div class="block_a">
+        <div class="title_s__block">
+            <div class="heading_3">{{project_info.projection.title}}</div>
+            <div class="body">{{project_info.projection.description}}</div>
+        </div>
+        <picture>
+            <source srcset="@/assets/img/0_girfido/proto_scheme_600.png" type="image/png" media="(max-width: 640px)" >
+            <img src="@/assets/img/0_girfido/proto_scheme.png" alt="">
+        </picture>
+    </div>
+    <div class="block_b">
+        <div class="title_s__block">
+            <div class="heading_3">{{project_info.prototype.title}}</div>
+            <div class="body">{{project_info.prototype.description}}</div>
+        </div>
+        <div class="img_center">
+            <picture>
+                <source srcset="@/assets/img/0_girfido/protos_600.png" type="image/png" media="(max-width: 640px)" >
+                <img src="@/assets/img/0_girfido/protos.png" alt="">
+            </picture>
+        </div>
+    </div>
+    <div class="big_design">
+        <div class="heading_1">Дизайн</div>
+    </div>
   </div>
 </template>
 
@@ -55,7 +80,15 @@ export default {
             project_info: {
                 title: "Girfido",
                 subtitle: "Социальная сеть для настольщиков",
-                details: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает."
+                details: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
+                projection: {
+                    title: "Проектирование",
+                    description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает."
+                },
+                prototype: {
+                    title: "Прототипы",
+                    description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает."
+                }
             }
         }
     },
@@ -159,6 +192,123 @@ export default {
                 }
             }
         }
+    }
+    .block_a {
+        padding: 130px 240px;
+        .title_s__block{
+            max-width: 500px;
+            .heading_3 {
+                margin-bottom: 20px;
+            }
+        }
+        img {
+                margin: 80px 0px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        @media screen and (max-width: 1600px){
+            padding: 80px 60px;
+            img {
+                margin: 60px 0px;
+            }
+        }
+        @media screen and (max-width: 1200px){
+            padding: 80px 60px;
+            img {
+                margin: 40px 0px;
+            }
+            .title_s__block{
+                max-width: 400px;
+                .heading_3 {
+                    margin-bottom: 16px;
+                }
+            }
+        }
+        @media screen and (max-width: 640px){
+            padding: 40px 20px;
+            padding-bottom: 0;
+            .title_s__block{
+                max-width: 360px;
+                .heading_3 {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+    .block_b {
+        .title_s__block{
+            margin: 50px 240px;
+            .heading_3 {
+                margin-bottom: 20px;
+            }
+            .body{
+                margin-left: 360px;
+                max-width: 500px;
+            }
+        }
+        .img_center {
+            width: 100%;
+            background: #E5E5E5;
+            display: flex;
+            justify-content: center;
+            img {
+                margin: 20px 0px;
+                max-width: 959px;
+                object-fit: cover;
+            }
+        }
+        @media screen and (max-width: 1600px){
+            .title_s__block{
+                margin: 80px 60px;;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 360px;
+                    max-width: 500px;
+                }
+            }
+        }
+        @media screen and (max-width: 1200px){
+            .title_s__block{
+                margin: 80px 60px;;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 240px;
+                    max-width: 500px;
+                }
+            }
+        }
+        @media screen and (max-width: 640px){
+            .title_s__block{
+                margin: 40px 20px;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 160px;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    .big_design {
+        padding: 130px 240px;
+        background: $black_100;
+        color: $white_100;
+        @media screen and (max-width: 1600px){
+            padding: 80px 60px;
+        }
+        @media screen and (max-width: 1200px){
+            padding: 80px 60px;
+        }
+        @media screen and (max-width: 640px){
+            padding: 40px 20px;
+        }
+        
     }
     @media screen and (max-width: 1600px){
         .info_block {
