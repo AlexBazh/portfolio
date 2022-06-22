@@ -256,6 +256,7 @@ export default {
                 margin: 20px 0px;
                 max-width: 959px;
                 object-fit: cover;
+                width: 100%;
             }
         }
         @media screen and (max-width: 1600px){
