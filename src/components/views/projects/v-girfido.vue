@@ -67,6 +67,22 @@
     <div class="big_design">
         <div class="heading_1">Дизайн</div>
     </div>
+    <div class="block_c">
+        <div class="title_s__block">
+            <div class="heading_3">{{project_info.signup.title}}</div>
+            <div class="body">{{project_info.signup.description}}</div>
+        </div>
+        <picture>
+            <source srcset="@/assets/img/0_girfido/girfido_2_600.png" type="image/png" media="(max-width: 640px)" >
+            <img src="@/assets/img/0_girfido/girfido_2.png" alt="">
+        </picture>
+    </div>
+    <div class="block_d">
+        <picture>
+            <source srcset="@/assets/img/0_girfido/girfido_3_600.png" type="image/png" media="(max-width: 640px)" >
+            <img src="@/assets/img/0_girfido/girfido_3.png" alt="">
+        </picture>
+    </div>
   </div>
 </template>
 
@@ -87,6 +103,10 @@ export default {
                 },
                 prototype: {
                     title: "Прототипы",
+                    description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает."
+                },
+                signup: {
+                    title: "Регистрация и авторизация",
                     description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает."
                 }
             }
@@ -256,7 +276,6 @@ export default {
                 margin: 20px 0px;
                 max-width: 959px;
                 object-fit: cover;
-                width: 100%;
             }
         }
         @media screen and (max-width: 1600px){
@@ -294,6 +313,67 @@ export default {
                     max-width: 300px;
                 }
             }
+        }
+    }
+    .block_c {
+        .title_s__block{
+            margin: 50px 240px;
+            margin-bottom: 0;
+            .heading_3 {
+                margin-bottom: 20px;
+            }
+            .body{
+                margin-left: 780px;
+                max-width: 500px;
+            }
+        }
+            img {
+                margin: 0px;
+                width: 100%;
+                object-fit: cover;
+            }
+        @media screen and (max-width: 1600px){
+            .title_s__block{
+                margin: 80px 60px;;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 700px;
+                    max-width: 500px;
+                }
+            }
+        }
+        @media screen and (max-width: 1200px){
+            .title_s__block{
+                margin: 80px 60px;;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 240px;
+                    max-width: 500px;
+                }
+            }
+        }
+        @media screen and (max-width: 640px){
+            .title_s__block{
+                margin: 40px 20px;
+                .heading_3 {
+                    margin-bottom: 20px;
+                }
+                .body{
+                    margin-left: 160px;
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    .block_d {
+        img {
+            margin: 0px;
+            width: 100%;
+            object-fit: cover;
         }
     }
     .big_design {
