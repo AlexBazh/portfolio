@@ -260,8 +260,15 @@ export default {
 @import '@/assets/styles/_variables.scss';
 .girfido_proj {
     .block_1 {
+        margin-top: 80px;
         width: 100%;
         height: 100%;
+        @media screen and (max-width: 1200px){
+            margin-top: 40px;
+        }
+        @media screen and (max-width: 640px){
+            margin-top: 0px;
+        }
         img {
                 width: 100%;
                 height: 100%;

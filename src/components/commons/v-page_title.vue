@@ -36,15 +36,15 @@ export default {
             display: flex;
             gap: 80px;
         }
-        padding: 173px 240px 140px;
+        padding: 173px 240px 0px;
         .page_title__h1 {
             margin-bottom: 60px;
         }
         @media screen and (max-width: 1600px){
-            padding: 160px 40px 80px;
+            padding: 160px 40px 0px;
         }
         @media screen and (max-width: 1200px){
-            padding: 120px 40px 80px;
+            padding: 120px 40px 0px;
             .page_title__h1 {
                 margin-bottom: 32px;
             }

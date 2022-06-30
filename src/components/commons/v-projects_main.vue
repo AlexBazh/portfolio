@@ -198,6 +198,15 @@ export default {
 
 <style lang="scss">
 @import '@/assets/styles/_variables.scss';
+    .projects_main {
+        margin-top: 80px;
+        @media screen and (max-width: 1200px){
+            margin-top: 40px;
+        }
+        @media screen and (max-width: 640px){
+            margin-top: 0px;
+        }
+    }
     .additional_projects {
         display: none;
     }
