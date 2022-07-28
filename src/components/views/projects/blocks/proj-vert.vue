@@ -24,6 +24,7 @@ export default {
             max-width: 500px;
             margin-top: 140px;
             margin-left: 240px;
+            margin-bottom: 140px;
             .heading_3 {
                 margin-bottom: 20px;
             }
@@ -32,11 +33,11 @@ export default {
                 margin: 0px;
                 width: 100%;
                 object-fit: cover;
+                display: block;
             }
         @media screen and (max-width: 1600px){
             .title_s__block{
                 margin: 80px 60px;
-                margin-bottom: 0;
             }
         }
         @media screen and (max-width: 640px){

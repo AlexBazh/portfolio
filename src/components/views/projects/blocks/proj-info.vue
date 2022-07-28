@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="cta_block" :style="cssVars">
-        <a :href="project.common.links.demo" target="_blank" class="left_cta heading_5">Смотреть демо
+        <a :href="project.common.links.demo" target="_blank" class="left_cta heading_5">{{project.common.links.demo_name}}
             <div class="anim_left"></div>
         </a>
         <a :href="project.common.links.figma" target="_blank" class="right_cta heading_5">Макеты в Figma

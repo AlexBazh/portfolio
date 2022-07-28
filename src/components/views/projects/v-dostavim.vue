@@ -17,12 +17,38 @@
     <ProjVert
         :block="project.blocks.architecture"
     />
-    <ProjHoriz
-        :blocks="project.blocks.admin.items"
-    />
+
+    <!--Клиент-->
     <ProjTitle
-        :title="project.blocks.design.title"
+        :title="project.blocks.client.title"
     />
+    <ProjHoriz
+        :blocks="project.blocks.client.items"
+    />
+    <ProjVert
+        :block="project.blocks.client.mobile"
+    />
+
+    <!--Админка-->
+    <ProjTitle
+        :title="project.blocks.admin.title"
+    />
+    <ProjVert
+        :block="project.blocks.admin.main"
+    />
+    <ProjVert
+        :block="project.blocks.admin.order"
+    />
+
+    <!--Курьер-->
+    <ProjTitle
+        :title="project.blocks.courier.title"
+    />
+    <ProjVert
+        :block="project.blocks.courier.mockups"
+    />
+
+    <!--Финал-->
     <ProjFinal
         :block="project.blocks.final"
     />
@@ -57,7 +83,8 @@ export default {
                     color: "#FB9C4C",
                     links: {
                         figma: "https://www.figma.com/file/EwW3ktWCFRc9YVXbim7Fn3/%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BC-view?node-id=0%3A1",
-                        demo: "https://stark-atoll-53946.herokuapp.com/"
+                        demo: "https://stark-atoll-53946.herokuapp.com/",
+                        demo_name: "Смотреть демо клиента"
                     }
                 },
                 blocks: {
@@ -71,44 +98,81 @@ export default {
                         title: "Архитектура",
                         description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
                         images: {
-                            size_default: require('@/assets/img/0_girfido/girfido_6.png'),
-                            size_600: require('@/assets/img/0_girfido/girfido_6_600.png')
+                            size_default: require('@/assets/img/1_dostavim/dostavim_2.png'),
+                            size_600: require('@/assets/img/1_dostavim/dostavim_2_600.png')
                         }
                     },
-                    design: {
-                        title: "Дизайн"
-                    },
-                    admin: {
+                    client: {
+                        title: "Клиент",
                         items: [
                             {
                                 id: 0,
-                                title: "Админка",
+                                title: "Список товаров",
                                 description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
-                                image: require('@/assets/img/0_girfido/girfido_8.png')
+                                image: require('@/assets/img/1_dostavim/dostavim_3.png')
                             },
                             {
                                 id: 1,
+                                title: "Корзина",
                                 description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
-                                image: require('@/assets/img/0_girfido/girfido_9.png')
+                                image: require('@/assets/img/1_dostavim/dostavim_4.png')
                             },
                             {
                                 id: 2,
+                                title: "Оформление заказа",
                                 description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
-                                image: require('@/assets/img/0_girfido/girfido_10.png')
+                                image: require('@/assets/img/1_dostavim/dostavim_5.png')
                             },
-                        ]
+                            {
+                                id: 3,
+                                description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
+                                image: require('@/assets/img/1_dostavim/dostavim_6.png')
+                            },
+                        ],
+                        mobile: {
+                            images: {
+                                size_default: require('@/assets/img/1_dostavim/dostavim_7.png'),
+                                size_600: require('@/assets/img/1_dostavim/dostavim_7_600.png')
+                            }
+                        }
+                    },
+                    admin: {
+                        title: "Админка",
+                        main: {
+                            description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
+                            images: {
+                                size_default: require('@/assets/img/1_dostavim/dostavim_8.png'),
+                                size_600: require('@/assets/img/1_dostavim/dostavim_8_600.png')
+                            }
+                        },
+                        order: {
+                            images: {
+                                size_default: require('@/assets/img/1_dostavim/dostavim_9.png'),
+                                size_600: require('@/assets/img/1_dostavim/dostavim_9_600.png')
+                            }
+                        },
+                    },
+                    courier: {
+                        title: "PWA курьера",
+                        mockups: {
+                            description: "Идея пришла из личного опыта, когда после очередной партии в настолку пытаетесь вспомнить кто сколько раз выигрывал и с каким результатом. Реализация идеи находиться в процессе, но что-то уже работает.",
+                            images: {
+                                size_default: require('@/assets/img/1_dostavim/dostavim_10.png'),
+                                size_600: require('@/assets/img/1_dostavim/dostavim_10_600.png')
+                            }
+                        }
                     },
                     final: {
                         images: {
-                            size_default: require('@/assets/img/0_girfido/girfido_13.png'),
-                            size_600: require('@/assets/img/0_girfido/girfido_13_600.png')
+                            size_default: require('@/assets/img/1_dostavim/dostavim_11.png'),
+                            size_600: require('@/assets/img/1_dostavim/dostavim_11_600.png')
                         },
                         next_proj: {
                             images: {
-                                size_default: require('@/assets/img/0_girfido/girfido_14.png'),
-                                size_600: require('@/assets/img/0_girfido/girfido_14_600.png')
+                                size_default: require('@/assets/img/1_dostavim/dostavim_12.png'),
+                                size_600: require('@/assets/img/1_dostavim/dostavim_12_600.png')
                             },
-                            link: "/projects/dostavim"
+                            link: "/projects/series"
                         }
                     }
                 }
