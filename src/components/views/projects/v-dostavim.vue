@@ -8,6 +8,7 @@
         :subtitle_1="project.common.subtitle"
         :isBack="true"
     />
+    <!--О проекте-->
     <ProjVert
         :block="project.blocks.onboarding"
     />
@@ -84,7 +85,9 @@ export default {
                     links: {
                         figma: "https://www.figma.com/file/EwW3ktWCFRc9YVXbim7Fn3/%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BC-view?node-id=0%3A1",
                         demo: "https://stark-atoll-53946.herokuapp.com/",
-                        demo_name: "Смотреть демо клиента"
+                        demo_name: "Смотреть демо клиента",
+                        is_demo: true,
+                        is_figma: false
                     }
                 },
                 blocks: {

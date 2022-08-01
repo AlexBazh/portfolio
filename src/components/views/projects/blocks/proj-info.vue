@@ -20,12 +20,17 @@
             </div>
         </div>
     </div>
-    <div class="cta_block" :style="cssVars">
+    <div class="cta_block" v-if="project.common.links.is_demo" :style="cssVars">
         <a :href="project.common.links.demo" target="_blank" class="left_cta heading_5">{{project.common.links.demo_name}}
             <div class="anim_left"></div>
         </a>
         <a :href="project.common.links.figma" target="_blank" class="right_cta heading_5">Макеты в Figma
             <div class="anim_right"></div>
+        </a>
+    </div>
+    <div class="cta_block_alone" v-if="project.common.links.is_figma" :style="cssVars">
+        <a :href="project.common.links.figma" target="_blank" class="center_cta heading_5">Макеты в Figma
+            <div class="anim_center"></div>
         </a>
     </div>
   </div>
@@ -121,6 +126,42 @@ export default {
             }
             &:hover {
                 .anim_right {
+                    width: 100%;
+                    background: rgba($color: $white_100, $alpha: .1);
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+    .cta_block_alone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 228px;
+        a {
+           color: $white_100; 
+        }
+        .center_cta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .center_cta {
+            background: $black_100;
+            .anim_center {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                background: rgba($color: $white_100, $alpha: .1);
+            }
+            &:hover {
+                .anim_center {
                     width: 100%;
                     background: rgba($color: $white_100, $alpha: .1);
                     border-radius: 0px;
