@@ -74,9 +74,6 @@ export default {
                 background: rgba($color: $white_100, $alpha: .1);
                 z-index: 1;
             }
-            @media screen and (max-width: 640px){
-                background: #EE8227;
-            }
         }
     }
 </style>
