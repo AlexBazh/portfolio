@@ -110,7 +110,7 @@ export default {
                                 size_default: require('@/assets/img/2_serial_killer/serial_killer_next.png'),
                                 size_600: require('@/assets/img/2_serial_killer/serial_killer_next_600.png')
                             },
-                            link: "/projects/series"
+                            link: "/projects/diso"
                         }
                     }
                 }
