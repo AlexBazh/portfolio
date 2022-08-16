@@ -9,6 +9,7 @@
       :subtitle_2="pageTitle.subtitle.subtitle_2"
       :subtitle_3="pageTitle.subtitle.subtitle_3"
       :isBack="false"
+      class="mb40"
     />
     <Projects/>
     <CTA/>
@@ -50,5 +51,7 @@ export default {
 </script>
 
 <style>
-
+  .mb40 {
+    margin-bottom: 40px;
+  }
 </style>
