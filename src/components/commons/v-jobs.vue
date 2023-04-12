@@ -1,7 +1,24 @@
 <template>
   <div class="job_list">
     <div class="job_item">
-        <div class="jobs_years heading_5">2021 — н.в.</div>
+        <div class="jobs_years heading_5">2022 — н.в.</div>
+        <div class="job_info">
+            <div class="job_site">
+                <div class="job_main__title heading_5">билайн</div>
+                <a href="https://beeline.ru" target="_blank" class="job_site__link nav">cайт</a>
+            </div>
+            <div class="job_title nav">Старший продуктовый дизайнер</div>
+        </div>
+        <ul class="job_details_list body">
+            <li>Проведение юзабилити-тестирований;</li>
+            <li>Создание нового функционала нагруженных интерфейсов;</li>
+            <li>Аналитика бизнес требований;</li>
+            <li>Разработка прототипов на основании требований и UX-исследований;</li>
+            <li>Создание дизайн-макетов.</li>
+        </ul>
+    </div>
+    <div class="job_item">
+        <div class="jobs_years heading_5">2021 — 2022</div>
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">Userstory</div>
