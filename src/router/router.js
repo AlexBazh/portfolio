@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import MainView from '@/components/views/v-main.vue'
 import ProjectView from '@/components/views/v-projects.vue'
@@ -23,7 +23,6 @@ const routes = [
         {
             path: '/',
             name: 'MainView',
-            mode: 'history',
             component: MainView,
         },
         {
@@ -109,7 +108,7 @@ const routes = [
     ]
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHashHistory(),
     routes
   })
 
