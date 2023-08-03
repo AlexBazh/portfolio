@@ -7,7 +7,7 @@
         </div>
         <div class="left_spec">
             <div class="heading_1 custom_h1">ux / ui,</div>
-            <div class="heading_1 custom_h1 dev">developer</div>
+            <div class="heading_1 custom_h1 dev">& developer</div>
         </div>
     </div>
     <div class="heroheader_right">
