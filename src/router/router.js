@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 import MainView from '@/components/views/v-main.vue'
 import ProjectView from '@/components/views/v-projects.vue'
