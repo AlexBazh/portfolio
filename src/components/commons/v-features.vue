@@ -2,7 +2,7 @@
   <div class="features">
     <div class="feature_content">
         <div class="features_text heading_5">
-            Помогаю запускать новые сервисы, разрабатываю дизайн-системы, провожу исследования, курирую дизайнеров, создаю свои собственные продукты.
+            Помогаю запускать новые сервисы,<br>разрабатываю дизайн-системы,<br>провожу исследования,<br>курирую дизайнеров,<br>создаю свои собственные продукты.
         </div>
         <a class="cta_circle" target="_blank" href="https://t.me/alexbazh">
             <div class="nav">Написать<br>в Telegram</div>
@@ -30,6 +30,8 @@ export default {
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: space-between;
+            width: 100%;
             gap: 127px;
         }
         .features_text{

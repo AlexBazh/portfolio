@@ -1,7 +1,23 @@
 <template>
   <div class="job_list">
     <div class="job_item">
-        <div class="jobs_years heading_5">2022 — н.в.</div>
+        <div class="jobs_years heading_5">2023 — н.в.</div>
+        <div class="job_info">
+            <div class="job_site">
+                <div class="job_main__title heading_5">ВкусВилл</div>
+                <a href="https://vkusvill.ru/" target="_blank" class="job_site__link nav">cайт</a>
+            </div>
+            <div class="job_title nav">Старший продуктовый дизайнер</div>
+        </div>
+        <ul class="job_details_list body">
+            <li>Участие в продуктовых исследование;</li>
+            <li>Генерация гипотез по улучшению взаимодействия;</li>
+            <li>Сборка и систематизация дизайн-системы;</li>
+            <li>Разработка прототипов и дизайн-макетов;</li>
+        </ul>
+    </div>
+    <div class="job_item">
+        <div class="jobs_years heading_5">2022 — 2023</div>
         <div class="job_info">
             <div class="job_site">
                 <div class="job_main__title heading_5">билайн</div>
