@@ -1,5 +1,6 @@
 module.exports = {
   devServer: {
+    publicPath: '/portfolio/',
     allowedHosts: [
       'localhost',
       'alexbazh.ru',

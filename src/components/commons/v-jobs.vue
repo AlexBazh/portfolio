@@ -114,22 +114,6 @@
             <div>3D визуализация.</div>
         </ul>
     </div>
-    <div class="job_item">
-        <div class="jobs_years heading_5">2013 — 2018</div>
-        <div class="job_info">
-            <div class="job_site">
-                <div class="job_main__title heading_5">Telebreeze</div>
-                <a href="https://telebreeze.com/" target="_blank" class="job_site__link nav">cайт</a>
-            </div>
-            <div class="job_title nav">Sales</div>
-        </div>
-        <ul class="job_details_list body">
-            <li>Продажа сложного технологического решения IPTV/OTT на B2B рынке;</li>
-            <li>Ведение проекта под ключ;</li>
-            <li>Поддержка текущих клиентов;</li>
-            <li>Работа с холодной базой.</li>
-        </ul>
-    </div>
   </div>
 </template>
 
